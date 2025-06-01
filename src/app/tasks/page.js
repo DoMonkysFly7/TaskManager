@@ -110,7 +110,8 @@ export default function TasksPage() {
 
         setPriority("medium");
       }
-
+      
+      setSearchQuery(""); 
       setTitle("");
       setDesc("");
       setError("");

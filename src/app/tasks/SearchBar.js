@@ -2,6 +2,7 @@
 export default function SearchBar({ searchQuery, setSearchQuery }) {
   return (
     <input
+      id="searchBar"
       type="text"
       placeholder="🔍 Search tasks..."
       value={searchQuery}
