@@ -34,7 +34,6 @@ export default function LoginPage() {
       } else {
         await createUserWithEmailAndPassword(auth, email, pass);
       }
-      // router.push("/tasks"); // nu e nevoie, se face automat în useEffect
     } catch (err) {
       setError(err.message);
     }
